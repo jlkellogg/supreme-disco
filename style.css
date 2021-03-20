@@ -1,6 +1,6 @@
 #container  {
     width: 600px;
-    height: 675px;
+    height: 750px;
     margin: 0 auto;
     text-align: center;
     background-color:olive;
@@ -29,5 +29,9 @@ button {
 #billAmount {
     text-align: center;
     font-size: large;
+}
+
+#radioButton {
+    font-size: xx-large;
 }
 
