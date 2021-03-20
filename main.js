@@ -1,10 +1,10 @@
 function calculateTip() {
     var billAmount = document.getElementById("billAmount").value;
     var tipPercentage = document.querySelectorAll('input[name="tip"]');
-    // if (billAmount === "") {
-        //     alert("Please enter a bill amount.");
-        //     return;
-        // }
+    if (billAmount === "") {
+            alert("Please enter a bill amount.");
+            return;
+        }
     let selectedTip;
         
     for (const tip of tipPercentage){
