@@ -9,11 +9,11 @@
 </head>
 <body>
     <div id="container">
-        <h1>Dinner Tip Calculator</h1>
+        <h1>Server Sustainment Calculator</h1>
         <form>
-            <p>Bill Amount</p>
-                <input id="billAmount" type="text"> Dollars
-            <p>How much would you like to tip?</p>
+            <p>Cost to stuff your face</p>
+                <input id="billAmount" type="text" placeholder="Feed Me">
+            <p>How much do you love your server?</p>
                 <input type="radio" name="tip" value="0.1" checked /> 10% <br />
                 <input type="radio" name="tip" value="0.15" /> 15% <br />
                 <input type="radio" name="tip" value="0.20" /> 20% <br />
@@ -22,15 +22,14 @@
             <button type=button id="calculate">Calculate</button>
         </form>
 
-        <div>
-            <span id="tipAmount">0.00</span>
+        <div class="calc">
+            <label>Amount your server lives off of:</label> <br/>
+            <span id="tipAmount">$0.00</span>
         </div>
-        <div>
-            <span id="totalBillAmount">0.00</span>
+        <div class="calc">
+            <label>Total to come out of your cheap wallet you got for Christmas last year:</label> <br/>
+            <span id="totalBillAmount">$0.00</span>
         </div>
-
-
-
     </div>
     <script src="main.js"></script>
 </body>
