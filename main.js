@@ -18,7 +18,7 @@ function calculateTip() {
     tip = tip.toFixed(2);
     document.getElementById("tipAmount").innerHTML=tip;
 
-    var total = (parseInt(billAmount) + parseInt(tip));
+    var total = (parseFloat(billAmount) + parseFloat(tip));
     total = total.toFixed(2);
     document.getElementById("totalBillAmount").innerHTML=total;
 }
